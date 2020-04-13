@@ -1,7 +1,7 @@
 <?php
 class Bootstrap extends \Phalcon\Mvc\Application
 {
-    private $modules;
+    protected $modules;
     private $default_module = 'frontend';
  
     public function __construct($default_module)
